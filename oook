@@ -59,6 +59,15 @@ rescue Exception => e
   exit
 end
 
+speech = []
+
+open(settings["speech_file"]).each do |line|
+  speech << line.chomp unless line.match(/^#/)
+end
+
+# puts speech.size
+puts speech[Random.rand(speech.size)]
+
 Twitter.configure do |config|
   config.consumer_key       = settings["consumer_key"]
   config.consumer_secret    = settings["consumer_secret"]
@@ -66,8 +75,4 @@ Twitter.configure do |config|
   config.oauth_token_secret = settings["access_token_secret"]
 end
 
-begin
-  # Something  
-rescue Exception => e
-  logger.warn "Could not download data: #{e}"
-end
+
