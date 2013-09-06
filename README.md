@@ -5,7 +5,7 @@ Tweet the sayings of [the Librarian](http://wiki.lspace.org/mediawiki/index.php/
 
 ## Sayings
 
-`oook.txt` has what the Librarian has said.  I haven't gone through all the books yet.  Contributions welcome.
+[oook.txt](oook.txt) has what the Librarian has said.  I haven't gone through all the books yet.  Contributions welcome.
 
 ## Requirements
 
