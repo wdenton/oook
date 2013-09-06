@@ -3,6 +3,8 @@ oook
 
 Tweet the sayings of [the Librarian](http://wiki.lspace.org/mediawiki/index.php/Librarian) at [Unseen University](https://en.wikipedia.org/wiki/Unseen_University) (created by Terry Pratchett).
 
+Follow on Twitter: [@oook_oook](https://twitter.com/oook_oook).
+
 ## Sayings
 
 [oook.txt](oook.txt) has what the Librarian has said.  I haven't gone through all the books yet.  Contributions welcome.
