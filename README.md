@@ -3,6 +3,10 @@ oook
 
 Tweet the sayings of [the Librarian](http://wiki.lspace.org/mediawiki/index.php/Librarian) at [Unseen University](https://en.wikipedia.org/wiki/Unseen_University) (created by Terry Pratchett).
 
+## Sayings
+
+`oook.txt` has what the Librarian has said.  I haven't gone through all the books yet.  Contributions welcome.
+
 ## Requirements
 
 Talking to Twitter is done with the [twitter](http://sferik.github.io/twitter/) Ruby gem.  Install it the usual way:
