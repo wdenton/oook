@@ -52,17 +52,25 @@ end
 
 settings = {}
 
+script_directory = File.dirname(__FILE__)
+
+config_file = "#{script_directory}/config.json"
+logger.debug "Config file: #{config_file}"
+
 begin
   # Twitter app authentication information goes in config.json
-  settings = JSON.parse(File.read("config.json"))
+  settings = JSON.parse(File.read(config_file))
 rescue Exception => e
   STDERR.puts "No readable config.json settings file: #{e}"
   exit
 end
 
+speech_file = "#{script_directory}/#{settings["speech_file"]}"
+logger.debug "Speech file: #{speech_file}"
+
 speech = []
 
-open(settings["speech_file"]).each do |line|
+open(speech_file).each do |line|
   speech << line.chomp if line.match(/^[^#]\w*/) # Doesn't start with a comment, and contains some text
 end
 
