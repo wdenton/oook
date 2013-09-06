@@ -1,7 +1,7 @@
 oook
 ====
 
-Sayings of the Librarian at Unseen University.
+Tweet the sayings of [the Librarian](http://wiki.lspace.org/mediawiki/index.php/Librarian) at [Unseen University](https://en.wikipedia.org/wiki/Unseen_University) (created by Terry Pratchett).
 
 ## Requirements
 
@@ -34,6 +34,11 @@ To schedule somewhat random tweets, I have this in my crontab:
     0 12,18 * * * sleep $RANDOM; cd ~/oook; /home/wtd/.rvm/rubies/ruby-1.9.3-p448/bin/ruby oook
 
 $RANDOM is "a random integer between 0 and 32767" in bash.  32767 seconds is a little over nine hours.
+
+## Thanks
+
+To Terry Pratchett for creating Discworld.
+
 
 
 
