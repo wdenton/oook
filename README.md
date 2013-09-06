@@ -1,7 +1,7 @@
 oook
 ====
 
-Tweet the sayings of [the Librarian](http://wiki.lspace.org/mediawiki/index.php/Librarian) at [Unseen University](https://en.wikipedia.org/wiki/Unseen_University) (created by Terry Pratchett).
+Tweet the sayings of [the Librarian](http://wiki.lspace.org/mediawiki/index.php/Librarian) at [Unseen University](https://en.wikipedia.org/wiki/Unseen_University) (created by [Sir Terry Pratchett](http://www.terrypratchett.co.uk/)).
 
 Follow on Twitter: [@oook_oook](https://twitter.com/oook_oook).
 
@@ -45,7 +45,7 @@ Twitter may sometimes not post a tweet because it's too soon after an identical 
 
 ## Thanks
 
-To Terry Pratchett for creating Discworld.
+To Sir Terry for creating Discworld.
 
 
 
