@@ -53,6 +53,7 @@ end
 settings = {}
 
 begin
+  # Twitter app authentication information goes in config.json
   settings = JSON.parse(File.read("config.json"))
 rescue Exception => e
   STDERR.puts "No readable config.json settings file: #{e}"

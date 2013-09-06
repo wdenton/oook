@@ -1,3 +1,7 @@
+# Contributions welcome for this file.
+# I would like to have everything the Librarian says here.
+# Granted, he mostly says "Oook."
+#
 # Guards! Guards!
 Oook.
 Oook.
@@ -16,11 +20,14 @@ Oook.
 Oook.
 Eeek.
 Oook.
+#
 # Men at Arms
 Oook.
 Oook!
 Oook oook oook oook ook---
 Oook.
+#
 # Feet of Clay has nothing
+#
 # Night Watch
 Ook.
