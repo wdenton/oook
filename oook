@@ -78,16 +78,15 @@ logger.debug "Read #{speech.size} lines"
 
 tweet = speech[Random.rand(speech.size)]
 
-Twitter.configure do |config|
+client = Twitter::REST::Client.new do |config|
   config.consumer_key       = settings["consumer_key"]
   config.consumer_secret    = settings["consumer_secret"]
-  config.oauth_token        = settings["access_token"]
-  config.oauth_token_secret = settings["access_token_secret"]
+  config.access_token        = settings["access_token"]
+  config.access_token_secret = settings["access_token_secret"]
 end
 
 begin
-  Twitter.update(tweet) unless options[:notweet]
+  client.update(tweet) unless options[:notweet]
 rescue Exception => e
   logger.error "Error tweeting (#{tweet}): #{e}"
 end
-
